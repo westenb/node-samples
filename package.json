@@ -1,10 +1,10 @@
 {
   "name": "node-samples",
   "version": "0.0.1",
-  "description": "Some basic experiments with node.js (concepts, modules, etc.).",
+  "description": "Some basic experiments with node.js (concepts, modules, testing, etc.).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,8 @@
     "moment": "~2.6.0"
   },
   "devDependencies": {
-    "grunt": "~0.4.4"
+    "grunt": "~0.4.4",
+    "mocha": "~1.18.2",
+    "grunt-mocha-test": "~0.10.2"
   }
 }
