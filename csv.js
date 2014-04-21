@@ -19,7 +19,7 @@ var csv = require('csv')
   , async = require('async');
 
 var prefix = 'produkt_klima_Tageswerte';
-var outdir = path.join( __dirname , 'ouput');
+var outdir = path.join( __dirname , 'output');
 var outfile = path.join( outdir, 'outweather.csv' );
 var indir   = path.join( __dirname , 'input' );
 
