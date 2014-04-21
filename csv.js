@@ -19,7 +19,8 @@ var csv = require('csv')
   , async = require('async');
 
 var prefix = 'produkt_klima_Tageswerte';
-var outfile = path.join( __dirname , 'weather_data.csv' );
+var outdir = path.join( __dirname , 'ouput');
+var outfile = path.join( outdir, 'outweather.csv' );
 var indir   = path.join( __dirname , 'input' );
 
 function parse(file, cb) {
@@ -48,6 +49,7 @@ function parse(file, cb) {
 console.time('Total time');
 
 // Clear target file
+fs.mkdir(outdir);
 fs.writeFileSync(outfile, '');
 
 // Detect files in source directory matching to file pattern

@@ -23,6 +23,11 @@
   "dependencies": {
     "async": "~0.7.0",
     "hdb": "~0.3.1",
-    "csv": "~0.3.7"
+    "csv": "~0.3.7",
+    "terraformer-wkt-parser": "~1.0.0",
+    "moment": "~2.6.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4"
   }
 }
