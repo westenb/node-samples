@@ -1,0 +1,28 @@
+{
+  "name": "node-samples",
+  "version": "0.0.1",
+  "description": "Some basic experiments with node.js (concepts, modules, etc.).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/westenb/node-samples.git"
+  },
+  "keywords": [
+    "samples",
+    "tests",
+    "experiments"
+  ],
+  "author": "EW",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/westenb/node-samples/issues"
+  },
+  "dependencies": {
+    "async": "~0.7.0",
+    "hdb": "~0.3.1",
+    "csv": "~0.3.7"
+  }
+}
