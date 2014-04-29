@@ -1,0 +1,7 @@
+{
+    "host"     : "myhanahost",
+    "port"     : 30015,
+    "users"    : [
+	  { "name": "user", "password" : "secret" }
+	]
+}
