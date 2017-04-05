@@ -27,7 +27,7 @@ Experimenting with GIS formats like GeoJSON and WKT (well-known-text) using the 
 
 ## Testing with Mocha
 
-Some samples for using unit BDD testing with *mocha* (http://visionmedia.github.io/mocha/) in mocha-tests.js
+Some samples for using unit BDD testing with *mocha* (http://mochajs.org/) in mocha-tests.js
 
  * Example can invoked via npm test (or grunt test)
  * Requires that grunt-cli is installed (run 'npm install -g grunt.cli')
